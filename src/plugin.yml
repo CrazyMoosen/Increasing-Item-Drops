@@ -1,0 +1,10 @@
+name: IncreasingItemDrops
+main: com.crazymoosen.RunListeners
+description: Item drops increase by 1 every time you mine a block!
+author: CrazyMoosen
+version: 5.0
+api-version: 1.16
+commands:
+  itemdrops:
+    description: Turn increasing item drops on or off with this command!
+    usage: /<command> [add | remove] [player]

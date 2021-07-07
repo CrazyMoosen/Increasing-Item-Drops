@@ -1,0 +1,54 @@
+# Increasing Item Drops Configuration File
+# Note: Only tamper if you know what you are doing, otherwise the plugin might not work
+# This configuration file lets you mess around with how Increasing Item Drops works.
+# If you want to comment out lines, add a hashtag in front of the line, like this line.
+
+
+#  ----------------------- Configuration Settings -----------------------
+
+# This is what keeps the plugin on. If you would like it to be off, change the value of the below line to false.
+plugin-on: true
+
+
+
+# This resets how many drops you get when you mine a certain number of blocks.
+# If you would like the drops to reset when you mine a certain number of blocks, change the value of the below line to a number.
+reset-on-num-blocks-mined: false
+
+
+
+# This resets how many drops you get when you kill a certain number of mobs.
+# If you would like the drops to reset when you kill a certain number of mobs, change the value of the below line to a number.
+reset-on-num-mobs-killed: false
+
+
+
+# This tells the plugin to only drop increased item drops on blocks in this list.
+# If you want all blocks to drop increased item drops, remove or comment out every block on the list, but do not delete the list.
+# If you would like to add blocks to the list, make sure you surround them with double quotes, like this: "dirt".
+# For a complete list of blocks you can add to the list, go to this website: 
+# https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+# Do not add blocks that have a description of Deprecated, this means they cannot be used.
+
+blocks:
+#  "dirt": true                    # Example 
+#  "iron_ore": true                # PLEASE MAKE SURE THAT EACH VALUE IS LOWERCASE
+#  "gold_ore": true                # DO NOT INDENT WITH TABS USE TWO SPACES FOR INDENTATION
+#  "diamond_ore": false            # If you want a block to be in the list uncommented but not drop increased item drops, set the value to false.
+
+
+
+
+
+# This tells the plugin to only drop increased item drops on mobs in this list.
+# If you want all mobs to drop increased item drops, remove or comment out every mob on the list, but do not delete the list.
+# If you would like to add mobs to the list, make sure you surround them with double quotes, like this: "cow".
+# For a complete list of mobs you can add to the list, go to this website: 
+# https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
+# Do not add entities other than actual living mobs, such as arrows, to the list.
+
+mobs:
+#  "cow": true                    # Example
+#  "pig": true                    # PLEASE MAKE SURE THAT EACH VALUE IS LOWERCASE
+#  "chicken": true                # DO NOT INDENT WITH TABS USE TWO SPACES FOR INDENTATION
+#  "sheep": false                 # If you want a block to be in the list uncommented but not drop increased item drops, set the value to false.
