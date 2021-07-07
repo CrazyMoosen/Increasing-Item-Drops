@@ -1,0 +1,9 @@
+name: IncreasingItemDrops
+main: com.crazymoosen.DetectWhenBlockBroken
+description: Item drops increase by 1 every time you mine a block, but you can turn it on and off with a command!
+author: CrazyMoosen
+version: 2.0
+commands:
+  itemdrops:
+    description: Turn increasing item drops on or off with this command!
+    usage: /<command> [true | false | on | off]
