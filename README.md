@@ -1,4 +1,4 @@
-# Increasing-Item-Drops
+# Increasing Item Drops
 GitHub Repository/Source Code for Increasing Item Drops plugin for Spigot/Paper.
 
 
