@@ -1,0 +1,5 @@
+name: IncreasingItemDrops
+author: CrazyMoosen
+version: 1.0
+main: com.crazymoosen.RunWhenBlockBroken
+description: Item drops increase by 1 every time you mine a block!
