@@ -19,6 +19,7 @@ public class DetectWhenBlockBroken extends JavaPlugin implements Listener, TabCo
 	@Override
 	public void onEnable() {
 		getCommand("itemdrops").setExecutor(this);
+		getServer().getPluginManager().registerEvents(new ListenForBlockBreaking(), this);
 	}
 	
 	
@@ -47,7 +48,7 @@ public class DetectWhenBlockBroken extends JavaPlugin implements Listener, TabCo
 	
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
-		if (!(sender instanceof Player)) {sender.sendMessage("§4§l(!) §4Only players may execute this command!"); return true;}
+		if (!(sender instanceof Player)) {sender.sendMessage("(!) Only players may execute this command!"); return true;}
 		
 		Player p = (Player) sender;
 		if (cmd.getName().equalsIgnoreCase("itemdrops")) {

@@ -23,7 +23,6 @@ public class ListenForBlockBreaking implements Listener {
 		event.setCancelled(true);
 		
 		Block block = event.getBlock();
-		//Material material = block.getType();
 		
 		Collection<ItemStack> blockDrops = block.getDrops();
 		ItemStack[] arrayDrops = blockDrops.toArray(new ItemStack[blockDrops.size()]);
@@ -32,9 +31,6 @@ public class ListenForBlockBreaking implements Listener {
 			    ItemStack items = new ItemStack(arrayDrops[i].getType(), amount);
 			    block.getWorld().dropItemNaturally(block.getLocation(), items);
 		}
-		
-		//ItemStack items = new ItemStack(material, amount);
-		//block.getWorld().dropItemNaturally(block.getLocation(), items);
 
 		amount = amount + 1;
 		
