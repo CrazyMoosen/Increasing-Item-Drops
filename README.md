@@ -1,5 +1,6 @@
 GitHub Repository/Source Code for Increasing Item Drops plugin for Spigot/Paper.
-
+Native Version: 1.16
+Tested Versions: 1.12, 1.13, 1.14, 1.15, 1.16, 1.17 
 
 **If you want to support me:**
 
